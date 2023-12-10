@@ -1,17 +1,26 @@
 header {
     background-color: #ffcccc;
+    width: 1000px;
 }
+
 #wrapper {
+    position: fixed;
     display: flex;
 }
+
 #main {
-    width: 700px;
     background-color: #ccffcc;
+    width: 700px;
 }
+
 #menu {
-    width: 300px;
     background-color: #ccccff;
+    width: 300px;
 }
+
 footer {
     background-color: #ffccff;
+    width: 1000px;
+    position: absolute;
+    bottom: 0;
 }
